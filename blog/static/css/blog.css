@@ -1,3 +1,9 @@
+body, html {
+    margin: 0;
+    padding: 0;
+
+}
+
 h2 a {
     color: #FF8833;
 }
@@ -35,6 +41,10 @@ body {
 
 .content {
     margin-left: 40px;
+    height: 100%;
+    width: 100%;
+    word-wrap: break-word;
+    
 }
 
 h1{
@@ -56,6 +66,7 @@ h2, h3, h4 {
 
 .post-form textarea, .post-form input {
     width: 100%;
+    
 }
 
 .top-menu, .top-menu:hover, .top-menu:visited {
@@ -67,10 +78,15 @@ h2, h3, h4 {
 
 .post {
     margin-bottom: 70px;
+    width: 100%;
+    position: relative;
+}
+
+.col-md-8{
+    width: 95%;
 }
 
 .post h2 a, .post h2 a:visited {
     color: #000000;
+    width: 100%;
 }
-
-
