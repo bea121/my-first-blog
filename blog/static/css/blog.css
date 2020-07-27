@@ -7,13 +7,24 @@ h1 a {
 }
 
 body {
-    padding-left: 15px;
+    padding-left: 0px;
 }
 
-.page-header {
+.page-header{
     background-color: #fae570;
     margin-top: 0;
-    padding: 20px 20px 20px 40px;
+    padding: 20px 20px 20px 20px;
+
+}
+
+.menu{
+    text-align: center;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Julius Sans One', sans-serif;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
